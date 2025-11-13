@@ -1,0 +1,6 @@
+title: FitHub Legal
+description: Privacy Policy and Terms of Service for FitHub.
+permalink: pretty
+plugins:
+  - jekyll-feed
+

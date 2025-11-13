@@ -1,0 +1,23 @@
+---
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} · FitHub Legal</title>
+    <link rel="stylesheet" href="{{ '/assets/css/legal.css' | relative_url }}">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>{{ page.title }}</h1>
+        {% if page.last_updated %}
+        <p class="updated">Last updated {{ page.last_updated }}</p>
+        {% endif %}
+      </header>
+      {{ content }}
+    </main>
+  </body>
+</html>
+
